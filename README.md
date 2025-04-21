@@ -93,7 +93,7 @@ Notebooks: [GAN fastai](notebooks/06v_GAN_fastai.ipynb), [DCGAN_PyTorch](noteboo
 ## [Track - Texts](https://www.youtube.com/watch?v=EojcWa7mgiM&list=PLMkXpBmmcKL_HxPVAz4-wT-kCiBR4iOSK) 
 
 Video: [Youtube Playlist](https://www.youtube.com/playlist?list=PLyyEwPZh6aHrox_MkN9_9UOBHsRQpDBWg) 
-Slide: PDF
+Slide: [pdf](https://github.com/ai-builders/curriculum/releases/download/slides_texts_2025/AI.builder.2025.-.Natural.Language.Processing.pdf)
 
 <a name="chapter4n"></a>
 ### Week 4 - บทที่ 4n - ภาพรวมของ NLP และ Transformer
