@@ -92,38 +92,45 @@ Notebooks: [GAN fastai](notebooks/06v_GAN_fastai.ipynb), [DCGAN_PyTorch](noteboo
 <a name="track-texts"></a>
 ## [Track - Texts](https://www.youtube.com/watch?v=EojcWa7mgiM&list=PLMkXpBmmcKL_HxPVAz4-wT-kCiBR4iOSK) 
 
+Video: [Youtube Playlist](https://www.youtube.com/playlist?list=PLyyEwPZh6aHrox_MkN9_9UOBHsRQpDBWg) 
+Slide: PDF
+
 <a name="chapter4n"></a>
-### Week 4 - [บทที่ 4n - NLP คืออะไร? บทเรียนจากอดีตสู่ปัจจุบัน](https://www.youtube.com/watch?v=EojcWa7mgiM) 
+### Week 4 - บทที่ 4n - ภาพรวมของ NLP และ Transformer
 
-ในบทนี้เราจะเรียนเกี่ยวกับ NLP ตั้งแต่พื้นฐาน ไปจนถึง NLP ในยุคปัจจุบันว่ามีการพัฒนาไปอย่างไรบ้าง พร้อมทั้งยกตัวอย่างการทำ text classification (การจำแนกข้อความ) ด้วยวิธีตั้งแต่อดีตยันปัจจุบัน
+ในบทนี้จะแนะนำเห็นภาพรวมของ Natural Language Processing และ Application และเรียนรู้เกี่ยวกับโมเดล Transformer ซึ่งเป็นโมเดล NLP ที่สำคัญที่สุดในขณะนี้
 
-Video: [YouTube](https://www.youtube.com/watch?v=EojcWa7mgiM)
+Video:
 
-Slides: [Google Slides](https://docs.google.com/presentation/d/1jXdjU0LqgIzpbfqy8pqI8-zJUc16_0EY8iiAgxcHMyc/edit?usp=sharing), [pdf](https://github.com/ai-builders/curriculum/releases/download/slides_texts/04n_nlp_intro.pdf)
+- [Overview of NLP](https://youtu.be/x3-57cURLAA)
+- [Embeddings and word embeddings](https://youtu.be/sYu0UlAcqsc)
+- [Transformers model](https://youtu.be/fmzlsM4on5U)
 
-Notebooks: [All Parts](notebooks/04n_NLP_Thai_Text_Classification.ipynb)
 
 <a name="chapter5n"></a>
-### Week 5 - [บทที่ 5n - การเทรนโมเดลบน Hugging Face พาร์ท 1](https://youtu.be/Pd9TFBhmx8I) 
+### Week 5 - บทที่ 5n - Encoder-only language model และ huggingface
 
-ในปัจจุบันการทำงานด้าน NLP มักจะนิยมใช้งาน Deep Learning ในการแก้ปัญหาโจทย์ที่มีความซับซ้อนสูง โดย Library ที่เป็นที่นิยมในปัจจุบันคือ [Hugging Face](https://huggingface.co/) ([transformers](https://github.com/huggingface/transformers/), [datasets](https://github.com/huggingface/datasets), [tokenizers](https://github.com/huggingface/tokenizers)) โดยในบทเรียนนี้เราจะมาเรียนการใช้งาน Hugging Face เพื่อเทรนโมเดลในงานด้าน NLP!
+Encoder-only language model เป็นโมเดลที่สามารถปรับจูนเพื่อทำ text classification ที่ดีที่สุด และสะดวกที่สุดตัวหนึ่ง อีกทั้งเป็นพื้นฐานสำหรับโมเดลภาษาขนาดใหญ่ ในบทนี้ผู้เรียนจะได้ทดลองใช้ [Hugging Face](https://huggingface.co/) ([transformers](https://github.com/huggingface/transformers/), [datasets](https://github.com/huggingface/datasets), [tokenizers](https://github.com/huggingface/tokenizers)) เพื่อเทรนโมเดล NLP 
 
-Video: [YouTube](https://youtu.be/Pd9TFBhmx8I)
+Video:
 
-Slides: [Google Slides](https://docs.google.com/presentation/d/1KFzS5iL4pi-XV_QxtP9G0sxSSy0PqXvuKsDLSPDhZtA/edit?usp=sharing), [pdf](https://github.com/ai-builders/curriculum/releases/download/slides_texts/05n_nlp_finetuning_part1.pdf)
+- [Encoder-only model](https://youtu.be/f_mN-lVkZ9I)
+- [Huggingface tutorial: Fine-tuning encoder-only models for sequence classification](https://youtu.be/PdKl-wwA6nw)
 
-Notebooks: [Part 1](notebooks/05n_NLP_on_HF_01.ipynb), [Part 2](notebooks/05n_NLP_on_HF_02.ipynb), [Part 3](notebooks/05n_NLP_on_HF_03.ipynb)
+Notebooks: Huggingface
 
 <a name="chapter6n"></a>
-### Week 6 - [บทที่ 6n - การเทรนโมเดลบน Hugging Face พาร์ท 2](https://youtu.be/qB0Mq1uLFZA) 
+### Week 6 - บทที่ 6n - Large Language Model and the GPTs
 
-หลังจากที่เราได้เรียนรู้พื้นฐานของการใช้งาน [Hugging Face](https://huggingface.co/) แล้ว เราจะมาเทรนโมเดลเพื่องานที่ซับซ้อนมากขึ้น เช่น Machine Translation (เครื่องแปลภาษา), Question Answering (ระบบถาม-ตอบ) และ Sentence Representation (การแปลงข้อความให้เป็นข้อมูล)
+Large language models (LLM) และ ChatGPT เป็นโมเดลที่ทำให้ AI กลับได้รับความนิยมอีกครั้ง และจัดเป็นการปฏิวัติวงการ NLP ครั้งใหญ่ครั้งหนึ่ง บทนี้จะพูดถึงการเทรน Large language model และการเขียน prompt ที่จะทำให้ใช้งาน LLM สำหรับการสร้าง NLP Application
 
-Video: [YouTube](https://youtu.be/qB0Mq1uLFZA)
+Video: 
 
-Slides: [Google Slides](https://docs.google.com/presentation/d/1lpnF9ZteWukd5RVBmf1mN9ZKaUoxhNByD0rTAeEqp00/edit?usp=sharing), [pdf](https://github.com/ai-builders/curriculum/releases/download/slides_texts/06n_nlp_finetuning_part2.pdf)
+- [Large language model and the GPT's](https://youtu.be/KMcVK01VO58)
+- [Prompt Engineering](https://youtu.be/uxaYbT-crNM)
+- [Retrieval Augmented Generation](https://youtu.be/xBmmOkTFs5Y)
 
-Notebooks: [Part 1](notebooks/06n_Machine_Translation.ipynb), [Part 2](notebooks/06n_Question_Answering.ipynb), [Part 3](notebooks/06n_Sentence_Representation.ipynb)
+Reading: [Chapter 10 Programming for NLP Application](https://attapol.github.io/programming-nlp-book/book/module10/1-large-language-model.html)
 
 <a name="track-tabular"></a>
 ## [Track - Tabular Data](https://www.youtube.com/watch?v=M0Gv5P_n_gk&list=PLMkXpBmmcKL9ecmWbKKOsbXcOSilqpUJ_) 
