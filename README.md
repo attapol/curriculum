@@ -90,7 +90,7 @@ Slides (หน้า 45-48): [Google slide](https://docs.google.com/presentation
 Notebooks: [GAN fastai](notebooks/06v_GAN_fastai.ipynb), [DCGAN_PyTorch](notebooks/06v_DCGAN_pytorch.ipynb)
 
 <a name="track-texts"></a>
-## [Track - Texts](https://www.youtube.com/watch?v=EojcWa7mgiM&list=PLMkXpBmmcKL_HxPVAz4-wT-kCiBR4iOSK) 
+## [Track - Texts](https://www.youtube.com/watch?v=x3-57cURLAA&list=PLyyEwPZh6aHrox_MkN9_9UOBHsRQpDBWg&index=1) 
 
 Video: [Youtube Playlist](https://www.youtube.com/playlist?list=PLyyEwPZh6aHrox_MkN9_9UOBHsRQpDBWg) 
 Slide: [pdf](https://github.com/ai-builders/curriculum/releases/download/slides_texts_2025/AI.builder.2025.-.Natural.Language.Processing.pdf)
